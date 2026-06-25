@@ -56,3 +56,7 @@ npm run eval:cycle17
 - [评估循环](./docs/evaluation-loop.md)
 - [架构说明](./docs/architecture.md)
 - [GitHub 展示说明](./README-GITHUB-SHOWCASE.md)
+
+## License
+
+MIT License. See [LICENSE](./LICENSE).
