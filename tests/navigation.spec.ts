@@ -138,7 +138,7 @@ test.describe('Cycle 14 navigation feel', () => {
       });
     });
 
-    await page.waitForTimeout(90);
+    await page.waitForFunction(() => window.__orreryDebug!.getPinchControlState().predictedMs > 35);
     const predicted = await page.evaluate(() => window.__orreryDebug!.getPinchControlState());
 
     expect(predicted.active).toBe(true);
@@ -328,7 +328,7 @@ test.describe('Cycle 14 navigation feel', () => {
       });
     });
 
-    await page.waitForTimeout(90);
+    await page.waitForFunction(() => window.__orreryDebug!.getSpaceControlState().predictedMs > 35);
     const predicted = await page.evaluate(() => window.__orreryDebug!.getSpaceControlState());
 
     expect(predicted.active).toBe(true);
