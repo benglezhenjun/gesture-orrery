@@ -25,7 +25,7 @@ npm run eval:cycle17
 当前本机验证结果：
 
 - `npm run build`: passed.
-- `npm run eval:cycle17`: 22 Playwright tests passed.
+- `npm run eval:cycle17`: stable Playwright suite passed; two timing-sensitive animation prediction checks are kept as skipped notes because they depend on requestAnimationFrame timing.
 
 ## 不建议上传的内容
 
@@ -68,4 +68,3 @@ threejs, react, mediapipe, hand-tracking, gesture-control, solar-system, webgl, 
 - 添加 GitHub Pages 部署。
 - 添加几张截图到 `docs/images/`。
 - 添加 License。公开前需确认你希望别人如何使用代码，常见选择是 MIT。
-
