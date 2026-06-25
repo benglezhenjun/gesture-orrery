@@ -1,0 +1,15 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+output/
+
+.DS_Store
+*.log
+.env
+.env.*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

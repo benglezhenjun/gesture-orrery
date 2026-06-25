@@ -1,0 +1,43 @@
+{
+  "name": "gesture-orrery",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:e2e": "playwright test",
+    "eval:mvp1": "npm run build && playwright test tests/mvp1.spec.ts",
+    "eval:cycle2": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts",
+    "eval:cycle3": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts",
+    "eval:cycle7": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle8": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle9": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle10": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle11": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle12": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle13": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle14": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle15": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle16": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts",
+    "eval:cycle17": "npm run build && playwright test tests/mvp1.spec.ts tests/cycle2.spec.ts tests/navigation.spec.ts tests/gestureFilters.spec.ts tests/modelDetail.spec.ts"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.35",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^26.0.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/three": "^0.171.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}
